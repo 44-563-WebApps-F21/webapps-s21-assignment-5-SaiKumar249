@@ -12,51 +12,77 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" 
     integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
 
+    <style>
+        .img {
+            height: 400px;
+            width: 400px;
+            object-fit: cover;
+        }
+
+    </style>
+
 </head>
 <body>
-<h1>Animals by Sai Kumar Ganapuram</h1>
-<div class = "container">
-    <div class = "row">
-        <div class = "col-sm-2">
+    <h1>Animals by Sai Kumar Ganapuram</h1>
+
+    <div class = "container">
+        <div class = "row">
+
+            <div class = "col-sm-2">
             G
-        </div>
-        <div class = "col-sm-2">
+            </div>
+            <div class = "col-sm-2">
             A
-        </div>
-         <div class = "col-sm-2">
+            </div>
+            <div class = "col-sm-2">
             N
-        </div> 
-        <div class = "col-sm-2">
+            </div> 
+            <div class = "col-sm-2">
             A
-        </div> 
-        <div class = "col-sm-2">
+            </div> 
+            <div class = "col-sm-2">
             P
-        </div>
-         <div class = "col-sm-2">
+            </div>
+            <div class = "col-sm-2">
             U
+            </div>
         </div>
-    </div>
-    <div class = "row">
-        <div class = "col-md">
+        <div class = "row">
+            <div class = "col-md">
             Goat
-        </div>
-        <div class = "col-md">
+            </div>
+            <div class = "col-md">
             Ant
-        </div>
-         <div class = "col-md">
+            </div>
+            <div class = "col-md">
             Nyala
-        </div> 
-        <div class = "col-md">
+             </div> 
+            <div class = "col-md">
             ALIGATOR
-        </div> 
-        <div class = "col-md">
+            </div> 
+            <div class = "col-md">
             PIG
-        </div>
-         <div class = "col-md">
+            </div>
+            <div class = "col-md">
             Urial
-        </div>
+            </div>
+         </div>
+         <div>the div with class name col-md containing animal names breaks first because for div bootstrap is applied</div>
     </div>
-</div>
-<div>the div with class name col-md containing animal names breaks first because for div bootstrap is applied</div>
+
+    <div class="container">
+        <h2>Image Responsive</h2>
+        <img src="Images/goat-image.jpg" class="img-responsive" alt="Goat" width="400" height="400">
+        <img src="Images/Ant-image.jpg" class="img-responsive" alt="Ant" width="400" height="400">
+        <img src="Images/pig-image.jpg" class="img-responsive" alt="Pig" width="400" height="400">
+    </div>
+
+    <div class="container">
+        <h2>Image Thumbnails</h2>
+        <img src="Images/goat-image.jpg" class="img-thumbnail img" alt="Goat">
+        <img src="Images/Ant-image.jpg" class="img-thumbnail img" alt="Ant">
+        <img src="Images/pig-image.jpg" class="img-thumbnail img" alt="Pig">
+    </div>
+
 </body>
 </html>
